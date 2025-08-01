@@ -1108,3 +1108,261 @@
   ]
 }
 
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 1,
+  "current_labeled_samples": 300,
+  "epoch_metrics": [
+    {
+      "train_loss": 5.590478944778442,
+      "train_acc": 0.3566666666666667,
+      "train_avg_f1": 0.3442302497813355,
+      "val_loss": 123.5208309173584,
+      "val_acc": 0.45375,
+      "val_avg_f1": 0.2151023477999584
+    },
+    {
+      "train_loss": 1.9720022996266684,
+      "train_acc": 0.42,
+      "train_avg_f1": 0.39864509746578336,
+      "val_loss": 19.88467978298664,
+      "val_acc": 0.47425,
+      "val_avg_f1": 0.34313612124495063
+    },
+    {
+      "train_loss": 2.4533234079678854,
+      "train_acc": 0.33666666666666667,
+      "train_avg_f1": 0.3308011893107997,
+      "val_loss": 5.139981797337532,
+      "val_acc": 0.50275,
+      "val_avg_f1": 0.38384542646788405
+    },
+    {
+      "train_loss": 2.249609955151876,
+      "train_acc": 0.36,
+      "train_avg_f1": 0.3310643060643061,
+      "val_loss": 1.49802678078413,
+      "val_acc": 0.2975,
+      "val_avg_f1": 0.26609496860061804
+    },
+    {
+      "train_loss": 1.8113621473312378,
+      "train_acc": 0.3333333333333333,
+      "train_avg_f1": 0.33210007823409887,
+      "val_loss": 1.6281153333187104,
+      "val_acc": 0.32625,
+      "val_avg_f1": 0.327042173143868
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.8113621473312378,
+    "train_acc": 0.3333333333333333,
+    "train_avg_f1": 0.33210007823409887,
+    "val_loss": 1.6281153333187104,
+    "val_acc": 0.32625,
+    "val_avg_f1": 0.327042173143868
+  },
+  "f1_per_class": [
+    0.36,
+    0.31001540832049307,
+    0.3111111111111111
+  ],
+  "confusion_matrix": [
+    [
+      459,
+      1173,
+      184
+    ],
+    [
+      3,
+      503,
+      15
+    ],
+    [
+      272,
+      1048,
+      343
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 2,
+  "current_labeled_samples": 310,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.520366039968306,
+      "train_acc": 0.3870967741935484,
+      "train_avg_f1": 0.3818429213340928,
+      "val_loss": 3.431305677890778,
+      "val_acc": 0.46975,
+      "val_avg_f1": 0.4110184977448575
+    },
+    {
+      "train_loss": 1.374657109860451,
+      "train_acc": 0.4,
+      "train_avg_f1": 0.38443547969271785,
+      "val_loss": 1.5022394332289695,
+      "val_acc": 0.37425,
+      "val_avg_f1": 0.30074794722880355
+    },
+    {
+      "train_loss": 1.2139669599071625,
+      "train_acc": 0.3967741935483871,
+      "train_avg_f1": 0.38379934833674323,
+      "val_loss": 1.1911585554480553,
+      "val_acc": 0.3165,
+      "val_avg_f1": 0.30965549248799507
+    },
+    {
+      "train_loss": 1.124669498012912,
+      "train_acc": 0.44193548387096776,
+      "train_avg_f1": 0.42244158293495176,
+      "val_loss": 1.1105600044131279,
+      "val_acc": 0.45075,
+      "val_avg_f1": 0.4226933164063819
+    },
+    {
+      "train_loss": 1.0345264000277365,
+      "train_acc": 0.432258064516129,
+      "train_avg_f1": 0.41104128604128604,
+      "val_loss": 0.9965863922238349,
+      "val_acc": 0.50375,
+      "val_avg_f1": 0.4848608066547094
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.0345264000277365,
+    "train_acc": 0.432258064516129,
+    "train_avg_f1": 0.41104128604128604,
+    "val_loss": 0.9965863922238349,
+    "val_acc": 0.50375,
+    "val_avg_f1": 0.4848608066547094
+  },
+  "f1_per_class": [
+    0.37341529004994245,
+    0.4543524416135882,
+    0.6268146883005977
+  ],
+  "confusion_matrix": [
+    [
+      486,
+      659,
+      671
+    ],
+    [
+      15,
+      428,
+      78
+    ],
+    [
+      286,
+      276,
+      1101
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 3,
+  "current_labeled_samples": 320,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.0102871544659138,
+      "train_acc": 0.4875,
+      "train_avg_f1": 0.47120074635973097,
+      "val_loss": 0.9842907539010048,
+      "val_acc": 0.4865,
+      "val_avg_f1": 0.4805016742826809
+    },
+    {
+      "train_loss": 1.0062986426055431,
+      "train_acc": 0.465625,
+      "train_avg_f1": 0.4544294188121453,
+      "val_loss": 0.9679147872328758,
+      "val_acc": 0.49325,
+      "val_avg_f1": 0.48547232009242897
+    },
+    {
+      "train_loss": 0.9707526303827763,
+      "train_acc": 0.459375,
+      "train_avg_f1": 0.4461844164962751,
+      "val_loss": 0.9431712621450424,
+      "val_acc": 0.5125,
+      "val_avg_f1": 0.4836101106076378
+    },
+    {
+      "train_loss": 0.9603045992553234,
+      "train_acc": 0.48125,
+      "train_avg_f1": 0.4643988688466079,
+      "val_loss": 0.996911709010601,
+      "val_acc": 0.38625,
+      "val_avg_f1": 0.38694071746482805
+    },
+    {
+      "train_loss": 0.966383695602417,
+      "train_acc": 0.46875,
+      "train_avg_f1": 0.46073356853775493,
+      "val_loss": 0.9338126373291016,
+      "val_acc": 0.4495,
+      "val_avg_f1": 0.4325218980901823
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 0.966383695602417,
+    "train_acc": 0.46875,
+    "train_avg_f1": 0.46073356853775493,
+    "val_loss": 0.9338126373291016,
+    "val_acc": 0.4495,
+    "val_avg_f1": 0.4325218980901823
+  },
+  "f1_per_class": [
+    0.5185995623632385,
+    0.4456327985739751,
+    0.3333333333333333
+  ],
+  "confusion_matrix": [
+    [
+      948,
+      783,
+      85
+    ],
+    [
+      19,
+      500,
+      2
+    ],
+    [
+      873,
+      440,
+      350
+    ]
+  ]
+}
+

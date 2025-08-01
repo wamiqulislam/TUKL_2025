@@ -528,3 +528,261 @@
   ]
 }
 
+{
+  "settings": {
+    "strategy": "margin",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 1,
+  "current_labeled_samples": 300,
+  "epoch_metrics": [
+    {
+      "train_loss": 8.457974735895792,
+      "train_acc": 0.33,
+      "train_avg_f1": 0.32435300207039336,
+      "val_loss": 141.6046577835083,
+      "val_acc": 0.39525,
+      "val_avg_f1": 0.21106255204178945
+    },
+    {
+      "train_loss": 1.6890951116879782,
+      "train_acc": 0.33666666666666667,
+      "train_avg_f1": 0.3273882995837661,
+      "val_loss": 5.0269579118490215,
+      "val_acc": 0.38375,
+      "val_avg_f1": 0.28918849926908896
+    },
+    {
+      "train_loss": 1.6296281973520914,
+      "train_acc": 0.27666666666666667,
+      "train_avg_f1": 0.27461646092579256,
+      "val_loss": 1.4761359995603562,
+      "val_acc": 0.42675,
+      "val_avg_f1": 0.38707644454070983
+    },
+    {
+      "train_loss": 1.341105878353119,
+      "train_acc": 0.35333333333333333,
+      "train_avg_f1": 0.3368213689941129,
+      "val_loss": 1.2040957203507423,
+      "val_acc": 0.23975,
+      "val_avg_f1": 0.22996854124045915
+    },
+    {
+      "train_loss": 1.4251702427864075,
+      "train_acc": 0.3566666666666667,
+      "train_avg_f1": 0.3376441603185789,
+      "val_loss": 1.404761508703232,
+      "val_acc": 0.3885,
+      "val_avg_f1": 0.37563155796812353
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.4251702427864075,
+    "train_acc": 0.3566666666666667,
+    "train_avg_f1": 0.3376441603185789,
+    "val_loss": 1.404761508703232,
+    "val_acc": 0.3885,
+    "val_avg_f1": 0.37563155796812353
+  },
+  "f1_per_class": [
+    0.30699959066721244,
+    0.2942868886148788,
+    0.5256081946222793
+  ],
+  "confusion_matrix": [
+    [
+      375,
+      950,
+      491
+    ],
+    [
+      14,
+      358,
+      149
+    ],
+    [
+      238,
+      604,
+      821
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "margin",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 2,
+  "current_labeled_samples": 310,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.3449595782064623,
+      "train_acc": 0.2709677419354839,
+      "train_avg_f1": 0.26652123018398727,
+      "val_loss": 1.4848230081796645,
+      "val_acc": 0.373,
+      "val_avg_f1": 0.36767110104752443
+    },
+    {
+      "train_loss": 1.1799476300516436,
+      "train_acc": 0.33548387096774196,
+      "train_avg_f1": 0.3157000585405027,
+      "val_loss": 1.3151540979743004,
+      "val_acc": 0.35125,
+      "val_avg_f1": 0.3536043583118466
+    },
+    {
+      "train_loss": 1.1075685158852608,
+      "train_acc": 0.35161290322580646,
+      "train_avg_f1": 0.3253655569445043,
+      "val_loss": 1.14438962161541,
+      "val_acc": 0.34075,
+      "val_avg_f1": 0.34263536025963753
+    },
+    {
+      "train_loss": 1.044381308940149,
+      "train_acc": 0.38064516129032255,
+      "train_avg_f1": 0.36778728526748417,
+      "val_loss": 1.0660234901309014,
+      "val_acc": 0.44425,
+      "val_avg_f1": 0.4032899606301461
+    },
+    {
+      "train_loss": 1.0554841872184508,
+      "train_acc": 0.38064516129032255,
+      "train_avg_f1": 0.36887343523499133,
+      "val_loss": 1.1447911250591278,
+      "val_acc": 0.4005,
+      "val_avg_f1": 0.3801713372834265
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.0554841872184508,
+    "train_acc": 0.38064516129032255,
+    "train_avg_f1": 0.36887343523499133,
+    "val_loss": 1.1447911250591278,
+    "val_acc": 0.4005,
+    "val_avg_f1": 0.3801713372834265
+  },
+  "f1_per_class": [
+    0.2732286805260925,
+    0.3161042289619821,
+    0.5511811023622047
+  ],
+  "confusion_matrix": [
+    [
+      322,
+      903,
+      591
+    ],
+    [
+      13,
+      370,
+      138
+    ],
+    [
+      206,
+      547,
+      910
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "margin",
+    "initial_labeled": 300,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 330,
+    "effective_total_labeled_samples": 930
+  },
+  "iteration": 3,
+  "current_labeled_samples": 320,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.0325284115970135,
+      "train_acc": 0.36875,
+      "train_avg_f1": 0.3567796725691463,
+      "val_loss": 1.101926636993885,
+      "val_acc": 0.34225,
+      "val_avg_f1": 0.34462649823353736
+    },
+    {
+      "train_loss": 1.0193442553281784,
+      "train_acc": 0.421875,
+      "train_avg_f1": 0.40170421940233814,
+      "val_loss": 1.0857045608758926,
+      "val_acc": 0.257,
+      "val_avg_f1": 0.23127859803964004
+    },
+    {
+      "train_loss": 1.0500137396156788,
+      "train_acc": 0.371875,
+      "train_avg_f1": 0.359976419795319,
+      "val_loss": 1.0412975561618805,
+      "val_acc": 0.34,
+      "val_avg_f1": 0.28619292811573854
+    },
+    {
+      "train_loss": 1.01904883608222,
+      "train_acc": 0.375,
+      "train_avg_f1": 0.3571611560466776,
+      "val_loss": 1.0008817449212075,
+      "val_acc": 0.4305,
+      "val_avg_f1": 0.4185492210600857
+    },
+    {
+      "train_loss": 1.0304535068571568,
+      "train_acc": 0.4,
+      "train_avg_f1": 0.39667222462921387,
+      "val_loss": 1.0978543683886528,
+      "val_acc": 0.285,
+      "val_avg_f1": 0.24585159044304636
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.0304535068571568,
+    "train_acc": 0.4,
+    "train_avg_f1": 0.39667222462921387,
+    "val_loss": 1.0978543683886528,
+    "val_acc": 0.285,
+    "val_avg_f1": 0.24585159044304636
+  },
+  "f1_per_class": [
+    0.42725724020442923,
+    0.2960118168389955,
+    0.014285714285714285
+  ],
+  "confusion_matrix": [
+    [
+      627,
+      1184,
+      5
+    ],
+    [
+      20,
+      501,
+      0
+    ],
+    [
+      472,
+      1179,
+      12
+    ]
+  ]
+}
+

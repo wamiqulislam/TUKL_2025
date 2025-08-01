@@ -984,3 +984,261 @@
   ]
 }
 
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 100,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 130,
+    "effective_total_labeled_samples": 330
+  },
+  "iteration": 1,
+  "current_labeled_samples": 100,
+  "epoch_metrics": [
+    {
+      "train_loss": 20.612790822982788,
+      "train_acc": 0.35,
+      "train_avg_f1": 0.30041501603471044,
+      "val_loss": 26890.6454296875,
+      "val_acc": 0.454,
+      "val_avg_f1": 0.20816139385602936
+    },
+    {
+      "train_loss": 5.503763341903687,
+      "train_acc": 0.43,
+      "train_avg_f1": 0.35294208703391955,
+      "val_loss": 2501.515867767334,
+      "val_acc": 0.41575,
+      "val_avg_f1": 0.19577373594678907
+    },
+    {
+      "train_loss": 2.6060338497161863,
+      "train_acc": 0.27,
+      "train_avg_f1": 0.23284477015323116,
+      "val_loss": 300.9162303161621,
+      "val_acc": 0.45025,
+      "val_avg_f1": 0.22169251844697582
+    },
+    {
+      "train_loss": 2.5175063610076904,
+      "train_acc": 0.3,
+      "train_avg_f1": 0.2649867162062284,
+      "val_loss": 93.79643206596374,
+      "val_acc": 0.451,
+      "val_avg_f1": 0.20742784868345407
+    },
+    {
+      "train_loss": 2.011208724975586,
+      "train_acc": 0.25,
+      "train_avg_f1": 0.24044421244697764,
+      "val_loss": 37.878822407722474,
+      "val_acc": 0.39825,
+      "val_avg_f1": 0.19646503264793522
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 2.011208724975586,
+    "train_acc": 0.25,
+    "train_avg_f1": 0.24044421244697764,
+    "val_loss": 37.878822407722474,
+    "val_acc": 0.39825,
+    "val_avg_f1": 0.19646503264793522
+  },
+  "f1_per_class": [
+    0.0,
+    0.015384615384615384,
+    0.5740104825591903
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      50,
+      1766
+    ],
+    [
+      0,
+      5,
+      516
+    ],
+    [
+      1,
+      74,
+      1588
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 100,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 130,
+    "effective_total_labeled_samples": 330
+  },
+  "iteration": 2,
+  "current_labeled_samples": 110,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.4850285920229824,
+      "train_acc": 0.33636363636363636,
+      "train_avg_f1": 0.32694390296729475,
+      "val_loss": 3.4438257339596747,
+      "val_acc": 0.46025,
+      "val_avg_f1": 0.3153237084229367
+    },
+    {
+      "train_loss": 1.4029330123554578,
+      "train_acc": 0.2909090909090909,
+      "train_avg_f1": 0.2771060357267254,
+      "val_loss": 2.903325279057026,
+      "val_acc": 0.36825,
+      "val_avg_f1": 0.2983173685325753
+    },
+    {
+      "train_loss": 1.575143044645136,
+      "train_acc": 0.18181818181818182,
+      "train_avg_f1": 0.1501708881501943,
+      "val_loss": 2.467259429395199,
+      "val_acc": 0.2855,
+      "val_avg_f1": 0.28426934162189554
+    },
+    {
+      "train_loss": 1.5288374857469038,
+      "train_acc": 0.20909090909090908,
+      "train_avg_f1": 0.19135993401381587,
+      "val_loss": 2.1181162771582605,
+      "val_acc": 0.221,
+      "val_avg_f1": 0.1917782425659158
+    },
+    {
+      "train_loss": 1.5039437250657515,
+      "train_acc": 0.22727272727272727,
+      "train_avg_f1": 0.2022888957624497,
+      "val_loss": 5.155726636052131,
+      "val_acc": 0.2905,
+      "val_avg_f1": 0.24528180951090495
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.5039437250657515,
+    "train_acc": 0.22727272727272727,
+    "train_avg_f1": 0.2022888957624497,
+    "val_loss": 5.155726636052131,
+    "val_acc": 0.2905,
+    "val_avg_f1": 0.24528180951090495
+  },
+  "f1_per_class": [
+    0.44551282051282054,
+    0.2903326080198943,
+    0.0
+  ],
+  "confusion_matrix": [
+    [
+      695,
+      1121,
+      0
+    ],
+    [
+      54,
+      467,
+      0
+    ],
+    [
+      555,
+      1108,
+      0
+    ]
+  ]
+}
+
+{
+  "settings": {
+    "strategy": "least_confident",
+    "initial_labeled": 100,
+    "iterations": 3,
+    "query_size": 10,
+    "total_epochs_per_round": 5,
+    "total_labeled_samples": 130,
+    "effective_total_labeled_samples": 330
+  },
+  "iteration": 3,
+  "current_labeled_samples": 120,
+  "epoch_metrics": [
+    {
+      "train_loss": 1.7591535051663716,
+      "train_acc": 0.21666666666666667,
+      "train_avg_f1": 0.19283585720367333,
+      "val_loss": 1.252426342666149,
+      "val_acc": 0.25375,
+      "val_avg_f1": 0.23129871193785564
+    },
+    {
+      "train_loss": 1.5102004806200664,
+      "train_acc": 0.20833333333333334,
+      "train_avg_f1": 0.18786859219447538,
+      "val_loss": 2.8515434110164644,
+      "val_acc": 0.299,
+      "val_avg_f1": 0.2376111084005232
+    },
+    {
+      "train_loss": 1.2084794839223225,
+      "train_acc": 0.30833333333333335,
+      "train_avg_f1": 0.3024493508247246,
+      "val_loss": 1.5090812969207763,
+      "val_acc": 0.4525,
+      "val_avg_f1": 0.43244513961498116
+    },
+    {
+      "train_loss": 1.167255202929179,
+      "train_acc": 0.39166666666666666,
+      "train_avg_f1": 0.3812136966079394,
+      "val_loss": 1.3128227105736732,
+      "val_acc": 0.4725,
+      "val_avg_f1": 0.4389017708427893
+    },
+    {
+      "train_loss": 1.325136532386144,
+      "train_acc": 0.36666666666666664,
+      "train_avg_f1": 0.3622636138976008,
+      "val_loss": 1.7221221777796745,
+      "val_acc": 0.29675,
+      "val_avg_f1": 0.293549709941205
+    }
+  ],
+  "final_epoch_summary": {
+    "train_loss": 1.325136532386144,
+    "train_acc": 0.36666666666666664,
+    "train_avg_f1": 0.3622636138976008,
+    "val_loss": 1.7221221777796745,
+    "val_acc": 0.29675,
+    "val_avg_f1": 0.293549709941205
+  },
+  "f1_per_class": [
+    0.24553366926248282,
+    0.3034610630407911,
+    0.3316543975203409
+  ],
+  "confusion_matrix": [
+    [
+      268,
+      1078,
+      470
+    ],
+    [
+      10,
+      491,
+      20
+    ],
+    [
+      89,
+      1146,
+      428
+    ]
+  ]
+}
+

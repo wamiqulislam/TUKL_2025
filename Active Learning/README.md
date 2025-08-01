@@ -31,19 +31,19 @@ torch
 tqdm
 
 ## File structure
-'''bash
+```bash
 /your/data/path/
 ├── tar_image_subset.npy     # shape: (N, Channels, Timesteps) can be changed according to model
 ├── label_target_subset.npy  # shape: (N,)
 ├── backboneSiteA2019.pth    # Pretrained CNN backbone
 ├── fcSiteA2019.pth          # Pretrained FC classifier head
-'''
+```
 
 ## Configuration
 
 Change these lines to configure them accoring to needs:
 
-'''python
+```python
 #shape (Num, Channels, Timesteps)
 Input_path = '/kaggle/input/active-learning-subset/tar_image_subset.npy' 
 #shape (Num)
@@ -87,11 +87,11 @@ lr = 1e-1
 weight_decay = 1e-4
 label_smoothing = 0.1
 ignore_index = -100
-'''
+```
 ## Model
 Current model is the following, which can be changed by replacing the following code, make sure the input and outputs match the input shape and number of classes, and the pretrained weigths are loaded correctly
 
-'''python 
+```python 
 ################ CNN Backbone 
 def conv_block(in_channels: int, out_channels: int, dropout=0.3) -> nn.Module:
     return nn.Sequential(
@@ -147,11 +147,11 @@ class FullModel(nn.Module):
         out = self.fc(feat)
         return feat, out
         
-'''
+```
 
 Weights are loaded here
 
-'''python
+```python
 #pretrained weights
 map_location=torch.device(device)
 
@@ -180,7 +180,7 @@ fc.load_state_dict(new_state_dict)
 
 model = FullModel(backbone, fc).to(device)
 initial_state_dict = copy.deepcopy(model.state_dict())
-'''
+```
 
 ## Adding Loss functions and Active Learning strategies
 

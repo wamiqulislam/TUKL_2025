@@ -1,11 +1,12 @@
-# Active Learning for Time Series Classification
+# Active Learning for Remote Sensing
 
-This project implements active learning for time-series (temporal sensor) classification using a CNN-based model. It supports multiple query strategies (e.g., margin sampling, least confident, entropy, diversity) to help train models efficiently using fewer labeled samples.
+This project implements active learning for remote sensing data with temporal and spectral resolutions classification using a CNN-based model. It supports multiple query strategies (e.g., margin sampling, least confident, entropy, diversity) to help train models efficiently using fewer labeled samples.
 
 ---
 
 ## Features
 
+- active-learning.ipynb notebook and active_learning_script.py python script
 - Multiple active learning strategies:
   - `margin`
   - `least_confident`

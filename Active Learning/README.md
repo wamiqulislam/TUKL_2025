@@ -31,11 +31,13 @@ torch
 tqdm
 
 ## File structure
+'''bash
 /your/data/path/
 ├── tar_image_subset.npy     # shape: (N, Channels, Timesteps) can be changed according to model
 ├── label_target_subset.npy  # shape: (N,)
 ├── backboneSiteA2019.pth    # Pretrained CNN backbone
 ├── fcSiteA2019.pth          # Pretrained FC classifier head
+'''
 
 ## Configuration
 

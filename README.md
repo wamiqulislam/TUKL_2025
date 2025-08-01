@@ -4,7 +4,7 @@ Repository to track my progress throughout internship at TUKL-DLL, @NCAI, NUST
 
 ## 🔁 Active Learning
 
-I implemented **Active Learning** for **satellite image time series classification** to identify crop types. The key idea was to **train a CNN-based classifier** using only a *small, informative subset* of the available data instead of labeling everything.
+I implemented **Active Learning** for **satellite image time series classification** to identify crop types. The key idea was to **train a CNN-based classifier** using only a *small, informative subset* of the available data instead of labeling everything, which is slow and expensive to do.
 
 ### ✅ What I Did:
 

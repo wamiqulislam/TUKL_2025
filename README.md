@@ -2,15 +2,29 @@
 
 Repository to track my progress throughout internship at TUKL-DLL, @NCAI, NUST
 
-## Active Learning
+## 🔁 Active Learning
 
-I implemented active learning on satellite imagery time series data for crop classification. I applied active learning methods to train a CNN-based classification model that predicts crop classes using only a small fraction of the available data.
+I implemented **Active Learning** for **satellite image time series classification** to identify crop types. The key idea was to **train a CNN-based classifier** using only a *small, informative subset* of the available data instead of labeling everything.
 
-Using **margin sampling**, I was able to achieve **86.4% accuracy** using just **2.5% of the data** (500 out of 20,000 samples). This shows that the model can perform well even with very limited labeled data.
+### ✅ What I Did:
 
-![accuracy graph](assets/accuracy_vs_labeled_samples.png)
+- Applied **multiple active learning strategies**:
+  - **Uncertainty-based** (e.g., *margin sampling*, *entropy*, *least confidence*)
+  - **Diversity-based**
+  - **Density-based**
+  - **Hybrid strategies**
+- Used a **1D CNN model** trained on temporal pixel data
+- Integrated a framework to iteratively query the most informative samples
+- Achieved **86.4% accuracy using just 2.5%** (500 out of 20,000) of the data with *margin sampling*
 
+### 📉 Results:
 
-### 📈 Performance Graph
+Even with limited labeled data, the model rapidly improved as shown in the graph below:
 
-![Accuracy vs Labeled Samples](assets/accuracy_vs_labeled_samples.png)
+![Active Learning Accuracy](./images/active_learning_accuracy.png)
+
+> The plot shows accuracy vs. number of labeled samples for different strategies.
+
+---
+
+This approach significantly reduces labeling effort while maintaining high performance—especially useful in resource-constrained remote sensing applications.

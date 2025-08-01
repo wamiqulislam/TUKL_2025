@@ -23,7 +23,7 @@ Even with limited labeled data, the model rapidly improved as shown in the graph
 
 ![Active Learning Accuracy](https://github.com/wamiqulislam/TUKL_2025/blob/main/Active%20Learning/Plots/300%2C20%2C10%2Ccomplete.png)
 
-> The plot shows accuracy vs. number of labeled samples for different strategies.
+> These plots show accuracy and F1 score vs. number of labeled samples for different strategies.
 
 ---
 

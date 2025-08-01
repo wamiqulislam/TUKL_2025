@@ -8,45 +8,32 @@ Original file is located at
 
 # Imports
 """
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from collections import Counter
+from collections import Counter, defaultdict
 import copy
-
 import math
+import random
+import os
+import csv
+import json
+import pickle
+
 import torch
-from torch.nn.modules.transformer import TransformerEncoder, TransformerEncoderLayer
-from torch.nn.modules import LayerNorm, Linear, ReLU
 import torch.nn as nn
 import torch.nn.functional as F
-import sklearn.metrics
-from sklearn.metrics import confusion_matrix, f1_score
-from sklearn.model_selection import train_test_split
-from tqdm import tqdm
-import pickle
-from torch.utils.data import DataLoader
-
-from torch.utils.data import Sampler
-import numpy as np
-import random
-from collections import defaultdict
-import csv
-import os
-import json
-from torch.utils.data import DataLoader
-import torch.nn.functional as F
-import numpy as np
-import torch
-from sklearn.metrics import pairwise_distances
-from sklearn.neighbors import NearestNeighbors
-import numpy as np
-import math
+from torch.nn.modules.transformer import TransformerEncoder, TransformerEncoderLayer
+from torch.nn.modules import LayerNorm, Linear, ReLU
 from torch.utils.data import Sampler, DataLoader, Dataset
-from sklearn.metrics import classification_report, confusion_matrix
 
+from tqdm import tqdm
+
+import sklearn.metrics
+from sklearn.metrics import confusion_matrix, f1_score, classification_report, pairwise_distances
+from sklearn.model_selection import train_test_split
+from sklearn.neighbors import NearestNeighbors
 
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
@@ -79,7 +66,7 @@ Active Learning Method(s) to use
 Currently available:
 "random", "entropy", "margin", "least_confident", "diversity", "entropy_diversity", "density"
 """
-strategies = ['margin', ]
+strategies = ['margin', 'least_confident']
 
 """
 ----------------------------------------------------------------------------------------

@@ -4,23 +4,12 @@ Repository to track my progress throughout internship at TUKL-DLL, @NCAI, NUST
 
 ## Active Learning
 
-I implemented active learning for crop classification using satellite time-series imagery. A CNN-based model was trained to classify crop types using only a **small fraction of labeled data**, reducing annotation cost.
+I implemented active learning on satellite imagery time series data for crop classification. I applied active learning methods to train a CNN-based classification model that predicts crop classes using only a small fraction of the available data.
 
-📌 **Key Highlights**:
-- Dataset: 20,000 satellite time-series samples
-- Task: Multiclass crop classification (3 classes)
-- Model: 1D CNN + Fully Connected classifier
-- Input: Temporal sensor data (e.g., NDVI over time)
-- Strategy: **Margin Sampling** (uncertainty-based)
+Using **margin sampling**, I was able to achieve **86.4% accuracy** using just **2.5% of the data** (500 out of 20,000 samples). This shows that the model can perform well even with very limited labeled data.
 
-🎯 **Results**:
-Using only **2.5% of the data** (500 labeled samples), the model achieved:
+![accuracy graph](assets/accuracy_vs_labeled_samples.png)
 
-> ✅ **Accuracy: 86.4%**
-
-This demonstrates the power of active learning to minimize labeling effort while maintaining high accuracy.
-
----
 
 ### 📈 Performance Graph
 

@@ -218,7 +218,7 @@ class Loss:
 
         return loss.mean()
 
-"""# Model"""
+#========MODEL START================================================================================================================
 
 ################ CNN Backbone
 def conv_block(in_channels: int, out_channels: int, dropout=0.3) -> nn.Module:
@@ -303,7 +303,7 @@ fc.load_state_dict(new_state_dict)
 
 model = FullModel(backbone, fc).to(device)
 initial_state_dict = copy.deepcopy(model.state_dict())
-
+#========MODEL END================================================================================================================
 """# Active Learning methods"""
 
 def query_samples(model, dataset, query_size, strategy, device, already_selected_idx=None):
